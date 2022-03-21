@@ -1,4 +1,9 @@
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -19,7 +24,7 @@ body {
 }
 
 #temporada{
-    background-color: rgb(255, 80, 197);
+    
     text-decoration: underline;
     color: crimson;
 }
@@ -51,7 +56,10 @@ ul{
     color: blue;
     width: 100px; 
 }
-
+#por-bloques ol{
+    display:inline-block;
+    padding: 80px;
+}
 
 button {
 position: relative;
@@ -67,3 +75,4 @@ text-transform: uppercase;
 button:hover {
     color: rgb(40, 247, 144);
 }
+ 
